@@ -13,9 +13,9 @@ public class Referee {
         }
         for (int i = 0; i < user.size(); i++) {
             if (Objects.equals(user.get(i), computer.get(i))) {
-                result[0] += 1;
+                result[0]++;
             } else if (computer.contains(user.get(i))) {
-                result[1] += 1;
+                result[1]++;
             }
         }
     }
